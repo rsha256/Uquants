@@ -12,13 +12,17 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>new WOW().init();</script>
 </head>
 <body>
   <nav class="green" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Uquants</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="services.html">Services</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -32,9 +36,9 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center green-text text-lighten-2">Uquants</h1>
+        <h1 class="header center green-text text-lighten-2 animated zoomIn wow" data-wow-delay="0.5s">Uquants</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">A company that processes and quantifies customer's data</h5>
         </div>
         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light green lighten-1">Get Started</a>
@@ -57,7 +61,7 @@
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Speeds up development</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
           </div>
         </div>
 
@@ -66,7 +70,7 @@
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
             <h5 class="center">User Experience Focused</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
           </div>
         </div>
 
@@ -75,7 +79,7 @@
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Easy to work with</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
           </div>
         </div>
       </div>
@@ -103,41 +107,41 @@
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
           <div class="row">
-    <form method="post" class="col s12" action="mail_handler.php">
-      <div class="row">
-        <div class="input-field col s6">
-          <input name="first_name" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input name="last_name" id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">email</i>
-          <input id="email" type="email" name="email" class="validate">
-          <label for="email" data-error="wrong" data-success="right">Email</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Telephone</label>
-        </div>
-      </div>
+            <form method="post" class="col s12" action="mail_handler.php">
               <div class="row">
-        <div class="input-field col s12">
-            <i class="material-icons prefix">mode_edit</i>
-          <input placeholder="Type your message here!" id="subject" name="message" type="text">
-          <label for="subject" class="active">Message</label>
-        </div>
-      </div>
-      <button class="btn waves-effect waves-light green" type="submit" name="submit" value="Submit">Submit
-        <i class="material-icons right">send</i>
-      </button>
-    </form>
-  </div>
+                <div class="input-field col s6">
+                  <input name="first_name" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="last_name" id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="email" name="email" class="validate">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                  <input placeholder="Type your message here!" id="subject" name="message" type="text">
+                  <label for="subject" class="active">Message</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light green" type="submit" name="submit" value="Submit">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
 
@@ -159,29 +163,12 @@
   <footer class="page-footer green">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+        <div class="">
+          <h5 class="white-text center">Company Bio</h5>
+          <p class="grey-text center text-lighten-4">At Uquants we do Process and quantify customers data efficiently and provide peace of mind for
+customers requirement. Uquants does Quantification work for Sciex and Waters LCMSMS. We are
+specialized in Multiquant software used for Sciex LCMSMS and TargetLynx Software used for
+Procesisng Acquired data from Waters LCMSMS.</p>
         </div>
       </div>
     </div>
