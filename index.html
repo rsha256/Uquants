@@ -10,183 +10,167 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"rel="stylesheet" >
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
 
   <!-- JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>new WOW().init();</script>
-
 </head>
 <body class="green">
-  <nav class="green" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Uquants</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="services.html">Services</a></li>
-      </ul>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="center dropdown-content">
+  <li><a href="#!">MultiQuant</a></li>
+  <li class="divider"/>
+  <li><a href="#!">Targetlynx</a></li>
+</ul>
+<nav class="green" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo" style="font-family: 'Pacifico', cursive;">Uquants</a>
+    <ul class="right hide-on-med-and-down">
+      <li><strong><a class="white-text" href="">Home</a></strong></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="services.html#installation">Installation</a></li>
+      <li><a href="services.html#repair">Repair</a></li>
+      <li><a href="services.html#relocation">Relocation</a></li>
+      <li><a class="dropdown-trigger" data-target="dropdown1">Data<i class="material-icons right">
+        arrow_drop_down</i></a></li>
+    </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="services.html">Services</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center green-text text-lighten-2 animated zoomIn wow" data-wow-delay="0.25s">Uquants Inc</h1>
-        <div class="row center">
-          <h5 class="header col s12 light wow fadeInUp" data-wow-delay="0.5s">Excellence in Service</h5>
-        </div>
-        <div class="animated bounce row center">
-          <a href="#contact" id="download-button" class="btn-large waves-effect waves-light green lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a class="active" href="">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="services.html#installation">Installation</a></li>
+      <li><a href="services.html#repair">Repair & Preventive Maintenance</a></li>
+      <li><a href="services.html#relocation">Instrument relocation</a></li>
+      <li><a href="services.html#multiquant">MultiQuant data process and review</a></li>
+      <li><a href="services.html#targetlynx">Targetlynx data process and review</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
+</nav>
 
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="white container" id="contact">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <div class="row">
-            <form method="post" class="col s12" action="mail_handler.php">
-              <div class="row">
-                <div class="input-field col s6">
-                  <input name="first_name" id="first_name" type="text" class="validate">
-                  <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <input name="last_name" id="last_name" type="text" class="validate">
-                  <label for="last_name">Last Name</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">email</i>
-                  <input id="email" type="email" name="email" class="validate">
-                  <label for="email" data-error="wrong" data-success="right">Email</label>
-                </div>
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">phone</i>
-                  <input id="icon_telephone" type="tel" class="validate" name="tel">
-                  <label for="icon_telephone">Telephone</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">mode_edit</i>
-                  <input placeholder="Type what service you want here!" id="subject" name="message" type="text">
-                  <label for="subject" class="active">Message</label>
-                </div>
-              </div>
-              <button class="btn waves-effect waves-light green" type="submit" name="submit" value="Submit">Submit
-                <i class="material-icons right">send</i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer green">
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
     <div class="container">
-      <div class="row">
-        <div class="">
-          <h5 class="white-text center">Company Bio</h5>
-          <p class="grey-text center text-lighten-4">At Uquants we do Process and quantify customers data efficiently and provide peace of mind for
-customers requirement. Uquants does Quantification work for Sciex and Waters LCMSMS. We are
-specialized in Multiquant software used for Sciex LCMSMS and TargetLynx Software used for
-Procesisng Acquired data from Waters LCMSMS.</p>
+      <br><br>
+      <h1 class="header center green-text text-lighten-2 animated zoomIn wow" data-wow-delay="0.25s">Uquants Inc</h1>
+      <div class="row center">
+        <h5 class="header col s12 light wow fadeInUp" data-wow-delay="0.5s">Excellence in Service</h5>
+      </div>
+      <div class="animated bounce row center">
+        <a href="#contact" id="download-button" class="btn-large waves-effect waves-light green lighten-1">Get
+          Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+  <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+          <h5 class="center">Speeds up development</h5>
+
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+          <h5 class="center">User Experience Focused</h5>
+
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+          <h5 class="center">Easy to work with</h5>
+
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://github.com/coder3462">Rahul Shah</a>
+
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5
+          class="z-depth-1 black-text header col s12 light"><strong>A modern solution to all of your problems</strong></h5>
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<div class="white container" id="contact">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"/></h3>
+        <h4>Contact Us</h4>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+</div>
 
-  </body>
+<footer class="page-footer green">
+  <div class="container">
+    <div class="row">
+      <div class="">
+        <h5 class="white-text center">Company Bio</h5>
+        <p class="grey-text center text-lighten-4">At Uquants we do Process and quantify customers data efficiently and
+          provide peace of mind for
+          customers requirement. Uquants does Quantification work for Sciex and Waters LCMSMS. We are
+          specialized in Multiquant software used for Sciex LCMSMS and TargetLynx Software used for
+          Procesisng Acquired data from Waters LCMSMS.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://github.com/coder3462">Rahul Shah</a>
+    </div>
+  </div>
+</footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+</body>
 </html>
