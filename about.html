@@ -10,53 +10,100 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"rel="stylesheet" >
+  <link href="css/gradients.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
 
   <!-- JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>new WOW().init();</script>
 
 </head>
-<body>
+<body class="main-background-gradient">
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="center dropdown-content">
+  <li><a href="services.html#multiquant">MultiQuant</a></li>
+  <li class="divider"/>
+  <li><a href="services.html#targetlynx">Targetlynx</a></li>
+</ul>
 <nav class="green" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="index.html" class="brand-logo">Uquants</a>
+    <a id="logo-container" href="index.html" class="brand-logo" style="font-family: 'Pacifico', cursive;">Uquants</a>
     <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
+      <li><a href="services.html#installation">Installation</a></li>
+      <li><a href="services.html#repair">Repair</a></li>
+      <li><a href="services.html#relocation">Relocation</a></li>
+      <li><a class="dropdown-trigger" data-target="dropdown1">Data<i class="material-icons right">
+        arrow_drop_down</i></a></li>
+      <li><strong><a class="white-text" href="about.html">About Us</a></strong></li>
     </ul>
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a href="#">Navbar Link</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="services.html#installation">Installation</a></li>
+      <li><a href="services.html#repair">Repair & Preventive Maintenance</a></li>
+      <li><a href="services.html#relocation">Instrument relocation</a></li>
+      <li><a href="services.html#multiquant">MultiQuant data process and review</a></li>
+      <li><a href="services.html#targetlynx">Targetlynx data process and review</a></li>
+      <li><a class="active" href="about.html">About Us</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
 </nav>
-
-<br />
-
 <div class="section white scrollspy" id="about">
   <br><br><br>
   <div class="row container">
     <div class="col s12 m6">
       <h2 class="header">We really <b>care</b> about our customers.</h2>
       <h4>And we want to share that love.</h4>
-      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis, mauris eget gravida condimentum, ligula sapien pulvinar mauris, vitae scelerisque tortor ex vitae nunc. Praesent feugiat tempus purus, a efficitur tellus semper in. Fusce imperdiet, velit ac luctus iaculis, ipsum diam vulputate erat, eget congue lorem risus vitae odio. Morbi volutpat ante dui, sed sagittis orci sodales efficitur. Duis dictum magna nunc, non iaculis quam cursus id. Cras id leo sed purus ornare sollicitudin. Etiam ac quam tempor, congue felis id, iaculis ex. Donec dapibus, velit ut hendrerit hendrerit, magna enim pellentesque nisi, vel porta augue lorem ac ante. Praesent maximus mattis quam, sit amet varius metus vestibulum eget.</p>
+      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+        sagittis, mauris eget gravida condimentum, ligula sapien pulvinar mauris, vitae scelerisque tortor ex vitae
+        nunc. Praesent feugiat tempus purus, a efficitur tellus semper in. Fusce imperdiet, velit ac luctus iaculis,
+        ipsum diam vulputate erat, eget congue lorem risus vitae odio. Morbi volutpat ante dui, sed sagittis orci
+        sodales efficitur. Duis dictum magna nunc, non iaculis quam cursus id. Cras id leo sed purus ornare
+        sollicitudin. Etiam ac quam tempor, congue felis id, iaculis ex. Donec dapibus, velit ut hendrerit hendrerit,
+        magna enim pellentesque nisi, vel porta augue lorem ac ante. Praesent maximus mattis quam, sit amet varius metus
+        vestibulum eget.</p>
     </div>
     <div class="col s12 m6 vertical-align">
-      <blockquote class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;"><p>“<em>I find the magnitude of the company pulled off by the high schoolers to be incredible! Simply the nature of a company being established is astonshing and must have taken a lot of hard work.</em>”</p><footer>Anonymous</footer><br></blockquote>
-      <blockquote class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;"><p>“<em>Overall, I think that the company was a stupendous idea. They ixed my problem when a bigger company could not! I think the creator of this deserves a big five out of a five, because it lets us lead easier lives!</em>”</p><footer>- Rahul Shah (<em>Customer</em>)</footer><br></blockquote>
-      <blockquote class="wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.8s; animation-name: fadeInUp;"><p>“<em>Nam fringilla metus nec bibendum suscipit. Nullam vitae malesuada magna. Maecenas sollicitudin cursus lorem. Quisque rhoncus, ipsum molestie venenatis condimentum, turpis leo posuere purus, ut auctor elit sapien ut nisi.</em>”</p><footer>- Hrushi (<em>Founder</em>)</footer><br></blockquote>
+      <blockquote class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s"
+                  style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+        <p>“<em>I find the magnitude of the company pulled off by the high schoolers to be incredible! Simply the nature
+          of a company being established is astonshing and must have taken a lot of hard work.</em>”</p>
+        <footer>Anonymous</footer>
+        <br></blockquote>
+      <blockquote class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s"
+                  style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+        <p>“<em>Overall, I think that the company was a stupendous idea. They ixed my problem when a bigger company
+          could not! I think the creator of this deserves a big five out of a five, because it lets us lead easier
+          lives!</em>”</p>
+        <footer>- Rahul Shah (<em>Customer</em>)</footer>
+        <br></blockquote>
+      <blockquote class="wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s"
+                  style="visibility: visible; animation-duration: 1s; animation-delay: 0.8s; animation-name: fadeInUp;">
+        <p>“<em>Nam fringilla metus nec bibendum suscipit. Nullam vitae malesuada magna. Maecenas sollicitudin cursus
+          lorem. Quisque rhoncus, ipsum molestie venenatis condimentum, turpis leo posuere purus, ut auctor elit sapien
+          ut nisi.</em>”</p>
+        <footer>- Hrushi (<em>Founder</em>)</footer>
+        <br></blockquote>
     </div>
   </div>
 </div>
 
-<div class="center" style="color: white">
+<div class="mobileHide center" style="color: white">
   <h2 class="center">Our Location:</h2>
-  <iframe class="center" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
+  <iframe class="center" width="600" height="450" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
+</div>
+
+<div class="mobileShow center" style="color: white">
+  <h2 class="center">Our Location:</h2>
+  <iframe class="center" width="300" height="300" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
 </div>
 
 <footer class="page-footer green">
@@ -64,7 +111,8 @@
     <div class="row">
       <div class="">
         <h5 class="white-text center">Company Bio</h5>
-        <p class="grey-text center text-lighten-4">At Uquants we do Process and quantify customers data efficiently and provide peace of mind for
+        <p class="grey-text center text-lighten-4">At Uquants we do Process and quantify customers data efficiently and
+          provide peace of mind for
           customers requirement. Uquants does Quantification work for Sciex and Waters LCMSMS. We are
           specialized in Multiquant software used for Sciex LCMSMS and TargetLynx Software used for
           Procesisng Acquired data from Waters LCMSMS.</p>

@@ -10,8 +10,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
 
   <!-- JS -->
@@ -21,9 +21,9 @@
 <body class="green">
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="center dropdown-content">
-  <li><a href="services.html#multiquant">MultiQuant</a></li>
+  <li><a href="#!">MultiQuant</a></li>
   <li class="divider"/>
-  <li><a href="services.html#targetlynx">Targetlynx</a></li>
+  <li><a href="#!">Targetlynx</a></li>
 </ul>
 <nav class="green" role="navigation">
   <div class="nav-wrapper container">
@@ -36,7 +36,6 @@
       <li><a href="services.html#relocation">Relocation</a></li>
       <li><a class="dropdown-trigger" data-target="dropdown1">Data<i class="material-icons right">
         arrow_drop_down</i></a></li>
-      <li><a href="about.html">About Us</a></li>
     </ul>
 
     <ul id="nav-mobile" class="sidenav">
@@ -47,7 +46,6 @@
       <li><a href="services.html#relocation">Instrument relocation</a></li>
       <li><a href="services.html#multiquant">MultiQuant data process and review</a></li>
       <li><a href="services.html#targetlynx">Targetlynx data process and review</a></li>
-      <li><a href="about.html">About Us</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
@@ -83,8 +81,8 @@
           <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
           <h5 class="center">Speeds up development</h5>
 
-          <p class="light">Uquants make your life easy by fixing all of your problems for you in a quick and easy
-            manner!</p>
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
         </div>
       </div>
 
@@ -93,8 +91,8 @@
           <h2 class="center brown-text"><i class="material-icons">group</i></h2>
           <h5 class="center">User Experience Focused</h5>
 
-          <p class="light">At Uquants, the customer is our primary focus and we care about making your experience as
-          good as possible.</p>
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
         </div>
       </div>
 
@@ -103,9 +101,8 @@
           <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
           <h5 class="center">Easy to work with</h5>
 
-          <p class="light">Our staff is easy to work with - not sure where to start? Don't worry just hit us up with
-            an email!
-            .</p>
+          <p class="light">Ignore this dummy text, it is filler for later text. Nonummy blandit sollicitudin ipsum
+            vestibulum velit. Nunc. Viverra cras, dapibus netus dui inceptos. Eu aliquam molestie.</p>
         </div>
       </div>
     </div>
@@ -133,16 +130,23 @@
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"/></h3>
         <h4>Contact Us</h4>
-     	<iframe
-        class="mobileHide"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdW4uVKvn656LDFT68S3k8GmY3Q7di6l8jvi6KmZ0-piD6HRg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-        <iframe
-          class="mobileShow"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdW4uVKvn656LDFT68S3k8GmY3Q7di6l8jvi6KmZ0-piD6HRg/viewform?embedded=true" width="320" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+     	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdW4uVKvn656LDFT68S3k8GmY3Q7di6l8jvi6KmZ0-piD6HRg/viewform?embedded=true" width="300" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> 
       </div>
     </div>
 
   </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
 </div>
 
 <footer class="page-footer green">
